@@ -11,6 +11,7 @@ public:
     DepositCalculator();
     ~DepositCalculator();
 
+
     double calculateProfit(double depositAmount, double interestRate, int months);
     double calculateProfitCapitalization(double depositAmount, double interestRate, int months);
 };

@@ -15,6 +15,7 @@ TEST(DepositCalculatorTests, CalculateProfit_ZeroDepositAmount_ReturnsZero)
     // Arrange
     DepositCalculator calculator;
 
+
     // Act & Assert
     EXPECT_THROW(calculator.calculateProfit(0, 10, 12), std::invalid_argument);
     EXPECT_THROW(calculator.calculateProfitCapitalization(0, 10, 12), std::invalid_argument);

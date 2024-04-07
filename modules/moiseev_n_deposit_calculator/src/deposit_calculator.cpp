@@ -22,6 +22,7 @@ double DepositCalculator::calculateProfitCapitalization(double depositAmount, do
 
     double monthlyInterestRate = interestRate / 100 / 12;
 
+
     double profit = 0.0;
     double currentDepositAmount = depositAmount;
 
